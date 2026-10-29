@@ -32,7 +32,7 @@ import urllib.request
 API = os.environ.get("GITHUB_API_URL", "https://api.github.com")
 
 # Umbrales de cada checkpoint. Ajustables entre semestres.
-MIN_MIEMBROS = 4
+MIN_MIEMBROS = 3
 MIN_CASOS = 6
 MIN_CATEGORIAS = 5
 MIN_REQUERIMIENTOS = 6
